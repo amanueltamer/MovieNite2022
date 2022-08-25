@@ -53,8 +53,8 @@ HEADER
 }
 
 .nav {
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-right: 200px;
+    padding-left: 200px;
 width: 100%;
 display: flex;
 align-items: center;
@@ -231,6 +231,14 @@ MOVIES
         align-items: center;
     }
 
+    .nav {
+        padding-right: 50px;
+        padding-left: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
 
     .whole__page {
         width: 100%;
