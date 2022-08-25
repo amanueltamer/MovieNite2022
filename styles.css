@@ -48,7 +48,7 @@ HEADER
 .whole__page {
     /* background: url(/assets/top_bg.jpg) repeat center top; */
     width: 100%;
-    padding: 150px 20px 0px;
+    padding: 0px 0px 0px;
     height: 100%;
 }
 
