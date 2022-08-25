@@ -6,7 +6,7 @@ const searchBtn = document.querySelector('.search__btn')
 
 
 async function getMovies(searchValue = 'Gantz') {
-  const response = await fetch(`http://www.omdbapi.com/?s=${searchValue}&apikey=4e7141be`)
+  const response = await fetch(`https://www.omdbapi.com/?s=${searchValue}&apikey=4e7141be`)
   const moviesData = await response.json()
   moviesListEl.innerHTML = moviesData.Search.map((movie) => generateMovieHTML(movie) ).join('')
 }
