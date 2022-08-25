@@ -13,7 +13,7 @@
 }
 
 html {
-    background: url(/assets/top_bg.jpg) repeat center top;
+    background: url(./assets/top_bg.jpg) repeat center top;
 }
 
 .logo {
