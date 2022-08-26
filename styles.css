@@ -172,8 +172,11 @@ MOVIES
     flex-wrap: wrap;
   }
 
-  .movies {
-    width: 50%;
+  .movie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
   }
 
   .movie-card {
@@ -200,6 +203,9 @@ MOVIES
   }
 
   .movie__container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       margin: 16px;
       text-align: center;
       flex-wrap: wrap;
